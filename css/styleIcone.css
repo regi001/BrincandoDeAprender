@@ -1,0 +1,13 @@
+.img-icone {
+    height: 90px;
+    width: 200x;
+    margin-top: -0.70em;
+    
+}
+
+.img-icone:hover {
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+    
+}

@@ -1,0 +1,92 @@
+/* imagem de fundo*/
+
+#home-Fundo {
+    background-image: url(../Imagens/travel_vogais.jpg)!important;
+    max-width: 100%;
+}
+
+
+IMG.displayed {
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 100%
+}
+
+.menu {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.menu li {
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    
+    
+}
+
+.menu li a:hover {
+    background-color: rgba(227, 242, 253, 0.96);
+}
+
+.menu li a :active {
+    background-color: rgba(227, 242, 253, 0.96);
+}
+
+..menu li  a:visited {
+    background-color: rgba(227, 242, 253, 0.96);
+}
+
+.menu span {
+    font: 1000 500px/500px"Open Sans";
+    color: black;
+    line-height: 75px;
+}
+
+.letras {
+    padding: 95px;
+}
+
+.submenu{
+    z-index:100;
+
+}
+
+
+.alfabetizacaoDivertida {
+    text-align: center;
+    font-family: 'Shojumaru', cursive;
+    !important;
+    font-size: 90px;
+    color: blue;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.alfabetizacaoDivertida:hover {
+    background: blue;
+    color: white;
+}
+
+.alfabeto {
+    text-align: center;
+    font-family: 'Shojumaru', cursive;
+    !important;
+    font-size: 70px;
+    color: blue;
+    margin-top: 1px;
+}
+
+.alfabeto:hover {
+    color: red;
+}
+
+
+
+
+
+

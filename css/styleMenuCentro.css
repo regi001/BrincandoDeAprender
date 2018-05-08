@@ -1,0 +1,22 @@
+.menuCentro {
+    width: 700px;
+    height: 700px;
+   margin-left: 400px;
+    
+    /*colocar a imagem no centro*/
+    
+}
+
+
+
+.menuCentro a :hover {
+    background-color: rgba(227, 242, 253, 0.96);
+}
+
+.menuCentro li a :active {
+    background-color: rgba(227, 242, 253, 0.96);
+}
+
+.menuCentro li  a:visited {
+    background-color: rgba(227, 242, 253, 0.96);
+}

@@ -1,0 +1,26 @@
+.quadrado {
+    padding: 4px;
+    width: 200px;
+    height: 200px;
+}
+
+.quadrado:hover {
+     -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
+}
+
+
+/* css da pagina silabas*/
+
+.quadradoDois {
+   
+    width: 350px;
+    height: 350px;
+}
+
+.quadradoDois:hover {
+    -webkit-transform: scale(1.6);
+    -ms-transform: scale(1.6);
+    transform: scale(1.6);
+}

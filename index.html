@@ -17,8 +17,8 @@
 
 </head>
 
-<body class="menu" id="home-Fundo">
-    <nav class="navbar navbar-light" style="background-color: #e3f2fd; navbar-fixed-top">
+<body class="menu" id="home-Fundo" >
+    <nav class="navbar navbar-light navbar-fixed-top" style="background-color: #e3f2fd; ">
 
         <div class="container-fluid ">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -53,7 +53,8 @@
                             <ul class="dropdown-menu" class="menu submenu">
                                 <li>
                                     <!--alfabeto-->
-                                    <a onclick="carregar('./Paginas/alfabeto.html')" href="#"><img onmouseover="tocarSom('musica/menuEfeito.mp3')" onmouseout="pararSom()" class="img-icone" class="img-responsive" src="Imagens/icone/alfabeto.png" alt="alfabeto"></a>
+                                    <a   onclick="carregar('./Paginas/alfabeto.html')" href="#"
+                                    data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><img onmouseover="tocarSom('musica/menuEfeito.mp3')" onmouseout="pararSom()" class="img-icone" class="img-responsive" src="Imagens/icone/alfabeto.png" alt="alfabeto"></a>
                                 </li>
                                 <li>
                                     <!--vogais-->
@@ -109,7 +110,7 @@
 
     <div>
         <div id="conteudo">
-            <h1 class="alfabetizacaoDivertida" onmouseover="tocarSom('musica/letrasFalam.mp3')" onmouseout="pararSom()">Alfabetização Divertida</h1>
+            <h1 class="alfabetizacaoDivertida"  onmouseover="tocarSom('musica/letrasFalam.mp3')" onmouseout="pararSom()">Alfabetização Divertida</h1>
 
         </div>
     </div>
